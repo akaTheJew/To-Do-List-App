@@ -26,12 +26,6 @@ def signup():
     password = data.get('password')
     email = data.get('email')
 
-    '''
-    username =  '1'
-    password = '2'
-    email = '3'
-    '''
-
     # Inputing your data 
     # Perform user signup logic here
     if password == psw and username == name:
