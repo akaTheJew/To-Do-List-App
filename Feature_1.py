@@ -48,16 +48,3 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
-'''
-# Input name, password and email
-
-
-url = 'http://127.0.0.1:5000/signup'
-data = {
-    'username':'a',
-    'password':'b',
-    'email':'c'
-}
-response = requests.post(url,json=data)
-print(response.json())
-'''
